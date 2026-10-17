@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Print-Ready ATS Resume Stylesheet
+   ========================================================================== */
+#bg3d, .vignette-overlay, header.nav-hud, .controls-hud, .btn-row, .project-actions, .sphere-panel, .channel-actions, footer {
+  display: none !important;
+}
+body, html {
+  background: #ffffff !important;
+  color: #111827 !important;
+}
+.ui-layer {
+  opacity: 1 !important;
+}
+section {
+  padding: 16px 0 !important;
+  page-break-inside: avoid;
+}
+.tilt-card, .timeline-item, .skill-cat-card, .metric-box, .contact-card-wrap, .channel-box {
+  background: #ffffff !important;
+  border: 1px solid #d1d5db !important;
+  color: #111827 !important;
+  box-shadow: none !important;
+  padding: 12px !important;
+}
+.gradient-text, .project-title, .tl-role, .section-title, .metric-val, .channel-value {
+  color: #111827 !important;
+  -webkit-text-fill-color: #111827 !important;
+}
+.hero-lead, .project-bullets li, .tl-desc, .section-desc, .channel-sub {
+  color: #374151 !important;
+}

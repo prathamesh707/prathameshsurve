@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Design Tokens, Theme Palette & Base Resets
+   ========================================================================== */
+:root {
+  --bg-deep: #050814;
+  --bg-panel: rgba(11, 17, 38, 0.76);
+  --bg-panel-strong: rgba(13, 20, 46, 0.92);
+  --bg-card: rgba(17, 25, 54, 0.68);
+  --border-subtle: rgba(99, 102, 241, 0.24);
+  --border-glow: rgba(0, 240, 255, 0.55);
+  --cyan: #00f0ff;
+  --indigo: #6366f1;
+  --violet: #a855f7;
+  --emerald: #10b981;
+  --amber: #f59e0b;
+  --rose: #f43f5e;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace;
+  --shadow-glow: 0 0 32px rgba(0, 240, 255, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-deep);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-deep);
+  color: var(--text-main);
+  min-height: 100vh;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
